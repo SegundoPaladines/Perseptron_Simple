@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Neurona Perceptron_982d2699"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "vmArgs": "--module-path ${env:PATH_TO_FX} --add-modules javafx.controls",
+            "mainClass": "${file}"
+        }
+    ]
+}
